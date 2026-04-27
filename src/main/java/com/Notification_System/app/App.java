@@ -12,6 +12,6 @@ public class App {
 
         NotificationProcessor processor = context.getBean(NotificationProcessor.class);
 
-        processor.process("Hello from Notification System");
+        processor.process();
     }
 }

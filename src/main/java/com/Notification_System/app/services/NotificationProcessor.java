@@ -23,4 +23,7 @@ public class NotificationProcessor {
     public void process (String message) {
         getSender().send(message);
     }
+    public void process () {
+        getSender().send();
+    }
 }
